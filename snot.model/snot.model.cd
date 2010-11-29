@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="snot.model.Note">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAAIAgAAAAAQAAYAAAEAAAAAEECAAAAA=</HashCode>
+      <FileName>Note.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.Tag">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.TaggedValue">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAACAAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>TaggedValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.Topic">
+    <Position X="3.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAEGAAAAAA=</HashCode>
+      <FileName>Topic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.User">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.TopicAppearance">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAACEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>TopicAppearance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snot.model.Idea">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAAEAAAAAgAAAAAQCAQAAAEAAAAAEGAAAAAA=</HashCode>
+      <FileName>Idea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

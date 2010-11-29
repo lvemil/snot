@@ -1,0 +1,8 @@
+C:\Personal\Projects\Notes\snot\snot.model\obj\Debug\ResolveAssemblyReference.cache
+C:\Personal\Projects\Notes\snot\snot.model\bin\Debug\snot.model.dll
+C:\Personal\Projects\Notes\snot\snot.model\bin\Debug\snot.model.pdb
+C:\Personal\Projects\Notes\snot\snot.model\obj\Debug\snot.model.dll
+C:\Personal\Projects\Notes\snot\snot.model\obj\Debug\snot.model.pdb
+C:\Users\user\Documents\Projects\Notes\snot\snot.model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Projects\Notes\snot\snot.model\obj\Debug\snot.model.dll
+C:\Users\user\Documents\Projects\Notes\snot\snot.model\obj\Debug\snot.model.pdb
