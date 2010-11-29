@@ -19,6 +19,8 @@ namespace snot.model
             TopicAppearance ta1 = new TopicAppearance(t1);
             ta1.Ideas.Add(new Idea("{0}liberar el sistema", new TaggedValue(new Tag("acuerdo"), "elima", "3-1-2011")));
 
+            ta1.Ideas.Add(new Idea("{0}involucrar a lider del negocio", new TaggedValue(new Tag("acuerdo"), "elima", "3-10-2010")));
+
             return n;
         }
     }
