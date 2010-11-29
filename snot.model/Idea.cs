@@ -40,16 +40,16 @@ namespace snot.model
 
         private List<TaggedValue> _Tags;
         
-
-        public Idea(string text)
-        {
-            _Text = text;
-        }
-
         internal List<TaggedValue> Tags
         {
             get { return _Tags; }
             set { _Tags = value; }
+        }
+
+        public Idea(string text, params TaggedValue[] tags)
+        {
+            _Text = text;
+            _Tags.AddRange(tags);
         }
     }
 }

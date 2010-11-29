@@ -17,7 +17,7 @@ namespace snot.model
 
             Topic t1 = new Topic("ReqControlAcceso");
             TopicAppearance ta1 = new TopicAppearance(t1);
-            ta1.Ideas.Add(new Idea("idea 1"));
+            ta1.Ideas.Add(new Idea("{0}liberar el sistema", new TaggedValue(new Tag("acuerdo"), "elima", "3-1-2011")));
 
             return n;
         }
