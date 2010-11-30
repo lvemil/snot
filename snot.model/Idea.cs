@@ -44,7 +44,7 @@ namespace snot.model
             set { _Order = value; }
         }
 
-        private List<TaggedValue> _Tags;
+        private List<TaggedValue> _Tags = new List<TaggedValue>();
         
         internal List<TaggedValue> Tags
         {

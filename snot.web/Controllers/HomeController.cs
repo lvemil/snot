@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using snot.model;
+
 namespace snot.web.Controllers
 {
     [HandleError]
@@ -11,7 +13,7 @@ namespace snot.web.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            ViewData["notes"] = MockFactory.LoadNotes();
 
             return View();
         }

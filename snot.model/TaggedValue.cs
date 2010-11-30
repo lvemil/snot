@@ -8,7 +8,7 @@ namespace snot.model
     public class TaggedValue
     {
         private Tag _Tag;
-        private List<string> _Values;
+        private List<string> _Values = new List<string>();
 
         public List<string> Values
         {

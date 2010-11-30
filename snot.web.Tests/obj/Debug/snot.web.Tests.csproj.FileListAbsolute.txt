@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.web.Tests.dll.config
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.web.Tests.dll
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.web.Tests.pdb
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.web.dll
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.web.pdb
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\obj\Debug\snot.web.Tests.dll
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\obj\Debug\snot.web.Tests.pdb
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.model.dll
+C:\Users\user\Documents\Projects\Notes\snot\snot.web.Tests\bin\Debug\snot.model.pdb

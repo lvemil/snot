@@ -7,7 +7,16 @@ namespace snot.model
 {
     public class Note
     {
-        
+        private string _Title = string.Empty;
+
+        public string Title
+        {
+            get { return _Title; }
+            set { _Title = value; }
+        }
+
+
+
         private DateTime _DateCreated;
 
         public DateTime DateCreated
@@ -38,7 +47,7 @@ namespace snot.model
             set { _Topics = value; }
         }
 
-        private List<TaggedValue> _Tags;
+        private List<TaggedValue> _Tags = new List<TaggedValue>();
 
         internal List<TaggedValue> Tags
         {
@@ -46,6 +55,10 @@ namespace snot.model
             set { _Tags = value; }
         }
 
-        
+        public Note(string title, User author)
+        {
+            _Title = title;
+            _Author = author;
+        }
     }
 }

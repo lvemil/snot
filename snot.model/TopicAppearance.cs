@@ -14,7 +14,7 @@ namespace snot.model
             set { _Topic = value; }
         }
         
-        private List<Idea> _Ideas;
+        private List<Idea> _Ideas = new List<Idea>();
 
         public List<Idea> Ideas
         {

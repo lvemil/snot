@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2A21C885-584B-4A73-AFDE-A82B7878E79E}</ProjectGuid>
+    <ProjectGuid>{9F36C4F1-4885-4437-BAC6-EDBE984CFD47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>snot.web.Tests</RootNamespace>
@@ -49,6 +49,7 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -59,6 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\snot.web\snot.web.csproj">
+      <Project>{B0898251-8B49-4AFA-85C3-9D6E764893F7}</Project>
+      <Name>snot.web</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

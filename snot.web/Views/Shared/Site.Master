@@ -12,7 +12,7 @@
 
         <div id="header">
             <div id="title">
-                <h1>My MVC Application</h1>
+                <h1>sNot</h1>
             </div>
               
             <div id="logindisplay">
@@ -21,10 +21,10 @@
             
             <div id="menucontainer">
             
-                <ul id="menu">              
+                <!--ul id="menu">              
                     <li><%: Html.ActionLink("Home", "Index", "Home")%></li>
                     <li><%: Html.ActionLink("About", "About", "Home")%></li>
-                </ul>
+                </ul-->
             
             </div>
         </div>

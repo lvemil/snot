@@ -9,8 +9,7 @@ namespace snot.model
     {
         public static Note CreateNote1()
         {
-            Note n = new Note();
-            n.Author = new User("elima");
+            Note n = new Note("note 1", new User("elima"));
             n.DateCreated = new DateTime(2010, 11, 10);
             n.Tags.Add(new TaggedValue(new Tag("lugar"), "sala altun ha"));
 
@@ -24,8 +23,7 @@ namespace snot.model
 
         public static Note CreateNote2()
         {
-            Note n = new Note();
-            n.Author = new User("elima");
+            Note n = new Note("nota 2", new User("elima"));
             n.DateCreated = new DateTime(2010, 11, 15);
             n.Tags.Add(new TaggedValue(new Tag("lugar"), "sala yaxchilan"));
             n.Tags.Add(new TaggedValue(new Tag("asunto"), "One2One RH"));
@@ -40,6 +38,15 @@ namespace snot.model
             ta2.Ideas.Add(new Idea("{0}el sistema esta trabajando correctamente", new TaggedValue(new Tag("exito"))));
 
             return n;
+        }
+
+        public static List<Note> LoadNotes()
+        {
+            List<Note> res = new List<Note>();
+            res.Add(CreateNote1());
+            res.Add(CreateNote2());
+
+            return res;
         }
     }
 }
