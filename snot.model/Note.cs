@@ -7,7 +7,7 @@ namespace snot.model
 {
     public class Note
     {
-        private string _Title;
+        
         private DateTime _DateCreated;
 
         public DateTime DateCreated

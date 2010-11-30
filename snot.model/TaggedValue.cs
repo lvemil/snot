@@ -5,7 +5,7 @@ using System.Text;
 
 namespace snot.model
 {
-    class TaggedValue
+    public class TaggedValue
     {
         private Tag _Tag;
         private List<string> _Values;

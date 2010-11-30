@@ -5,7 +5,7 @@ using System.Text;
 
 namespace snot.model
 {
-    class Tag
+    public class Tag
     {
         private string _Text;
 

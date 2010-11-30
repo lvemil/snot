@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("snot.web")]
+[assembly: AssemblyTitle("snot.web.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("snot.web")]
+[assembly: AssemblyProduct("snot.web.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("09dcf45a-7902-458f-9621-37c4434dab3d")]
+[assembly: Guid("ec3f9f45-5404-4c7d-8b3b-812264c1b541")]
 
 // Version information for an assembly consists of the following four values:
 //

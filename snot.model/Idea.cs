@@ -38,6 +38,12 @@ namespace snot.model
 
         private int _Order;
 
+        public int Order
+        {
+            get { return _Order; }
+            set { _Order = value; }
+        }
+
         private List<TaggedValue> _Tags;
         
         internal List<TaggedValue> Tags
