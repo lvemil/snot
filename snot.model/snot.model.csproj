@@ -54,7 +54,7 @@
     <Compile Include="MockFactory.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Tag.cs" />
-    <Compile Include="TaggedValue.cs" />
+    <Compile Include="ValueTag.cs" />
     <Compile Include="Topic.cs" />
     <Compile Include="TopicAppearance.cs" />
     <Compile Include="User.cs" />
