@@ -39,7 +39,7 @@ namespace snot.model
             set { _Author = value; }
         }
 
-        private List<TopicAppearance> _Topics;
+        private List<TopicAppearance> _Topics = new List<TopicAppearance>();
 
         public List<TopicAppearance> Topics
         {
@@ -47,9 +47,9 @@ namespace snot.model
             set { _Topics = value; }
         }
 
-        private List<TaggedValue> _Tags = new List<TaggedValue>();
+        private List<ValuedTag> _Tags = new List<ValuedTag>();
 
-        internal List<TaggedValue> Tags
+        public List<ValuedTag> Tags
         {
             get { return _Tags; }
             set { _Tags = value; }

@@ -44,15 +44,15 @@ namespace snot.model
             set { _Order = value; }
         }
 
-        private List<TaggedValue> _Tags = new List<TaggedValue>();
+        private List<ValuedTag> _Tags = new List<ValuedTag>();
         
-        internal List<TaggedValue> Tags
+        internal List<ValuedTag> Tags
         {
             get { return _Tags; }
             set { _Tags = value; }
         }
 
-        public Idea(string text, params TaggedValue[] tags)
+        public Idea(string text, params ValuedTag[] tags)
         {
             _Text = text;
             _Tags.AddRange(tags);

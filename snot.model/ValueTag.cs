@@ -5,7 +5,7 @@ using System.Text;
 
 namespace snot.model
 {
-    public class TaggedValue
+    public class ValuedTag
     {
         private Tag _Tag;
         private List<string> _Values = new List<string>();
@@ -22,7 +22,7 @@ namespace snot.model
             set { _Tag = value; }
         }
 
-        public TaggedValue(Tag tag, params string[] values)
+        public ValuedTag(Tag tag, params string[] values)
         {
             _Tag = tag;
             _Values.AddRange(values);

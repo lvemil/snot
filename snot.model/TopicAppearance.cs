@@ -26,5 +26,28 @@ namespace snot.model
         {
             _Topic = topic;
         }
+
+        private List<TopicAppearance> _SubTopics = new List<TopicAppearance>();
+
+        public List<TopicAppearance> SubTopics
+        {
+            get { return _SubTopics; }
+            set { _SubTopics = value; }
+        }
+
+        private int _Order;
+
+        public int Order
+        {
+            get { return _Order; }
+            set { _Order = value; }
+        }
+        private int _Level;
+
+        public int Level
+        {
+            get { return _Level; }
+            set { _Level = value; }
+        }
     }
 }
